@@ -1,0 +1,17 @@
+.body {
+  background:white;
+
+}
+
+.title{
+  font-weight:bold;
+  padding-right: 50px;
+  font-style: italic;
+
+
+}
+
+.middle-section{
+max-width: 800px;
+margin: auto;
+}
