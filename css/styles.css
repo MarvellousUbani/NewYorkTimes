@@ -3,15 +3,107 @@
 
 }
 
+img{
+	width:100%;
+}
+
+.container-fluid{
+		border-bottom: 1px  solid #e5e5e5;
+}
+
+.topnav{
+	max-width: 1500px;
+	margin:auto;
+}
+
+.logo{
+	max-width: 200px;
+	position: relative;
+}
+
+.btn-blue{
+	background:steelblue;
+	color:#fff;
+}
+
+.trans-btn{
+	background: transparent;
+	border:none;
+	cursor: pointer;
+}
+
+.btn-login{
+	font-size: .8rem;
+}
+
+.small-grey-txt{
+	font-size: .87rem;
+	color:#666;
+}
+
+.small-black-txt{
+	font-size: .7rem;
+	color:#464646;
+}
+
+.mx-800{
+	max-width: 800px;
+}
+
+.mx-900{
+	max-width: 900px;
+}
+
+.m-auto{
+	margin:auto !important;
+}
+
+
 .title{
   font-weight:bold;
-  padding-right: 50px;
-  font-style: italic;
-
+  max-width: 800px;
+  margin-bottom: 1rem;
+  padding-left: 12rem;
 
 }
 
 .middle-section{
-max-width: 800px;
-margin: auto;
+max-width: 1200px;
+margin: 4rem auto;
+}
+
+
+.story-bloc{
+	max-width: 600px;
+	margin:auto;
+	font-size: 1.2rem;
+}
+
+.author{
+	font-weight: bold;
+	font-size: .87rem;
+}
+
+.pub-date{
+  font-size:.9rem;
+}
+
+.sm-links{
+	font-size: .85rem;
+	color: #000;
+	padding:.5rem .3rem;
+	background:#eee;
+	border-radius: 50%;
+}
+
+.p-relative{
+position: relative;
+}
+
+.top-minus-400{
+	top:-400px;
+}
+
+.top-minus-250{
+	top:-250px;
 }
