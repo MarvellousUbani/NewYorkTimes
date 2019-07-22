@@ -7,13 +7,20 @@ img{
 	width:100%;
 }
 
-.container-fluid{
+.d-inline{
+	display: inline;
+}
+
+.top-nav{
 		border-bottom: 1px  solid #e5e5e5;
 }
 
-.topnav{
+.top-sub-nav{
 	max-width: 1500px;
 	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo{
@@ -24,6 +31,9 @@ img{
 .btn-blue{
 	background:steelblue;
 	color:#fff;
+	border:none;
+	padding:.5rem 1.2rem;
+	border-radius: 5px;
 }
 
 .trans-btn{
@@ -59,12 +69,12 @@ img{
 }
 
 
-.title{
+.top-title{
   font-weight:bold;
   max-width: 800px;
   margin-bottom: 1rem;
   padding-left: 12rem;
-
+  font-size: 3rem;
 }
 
 .middle-section{
@@ -91,7 +101,7 @@ margin: 4rem auto;
 .sm-links{
 	font-size: .85rem;
 	color: #000;
-	padding:.5rem .3rem;
+	padding:.5rem .7rem;
 	background:#eee;
 	border-radius: 50%;
 }
@@ -106,4 +116,20 @@ position: relative;
 
 .top-minus-250{
 	top:-250px;
+}
+
+
+.date-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.inflation-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.inflation-row .col{
+	padding:0 1rem;
 }
