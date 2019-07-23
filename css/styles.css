@@ -8,6 +8,10 @@ img{
   height:auto;
 }
 
+figure{
+	margin:0;
+}
+
 .d-inline{
 	display: inline;
 }
@@ -262,4 +266,20 @@ footer{
 	justify-content: space-between;
 	 font-size:.75rem;
      color:#666;
+}
+
+.bigger-first{
+	font-size: 1.1rem;
+}
+
+.smaller-first{
+	font-size: .85rem;
+}
+
+.border-bottom{
+	display: inline-block;
+	margin-top: 1.3rem;
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	border-bottom:1px solid #e5e5e5;
 }
