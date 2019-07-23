@@ -18,6 +18,10 @@ figure{
 
 .top-nav{
 		border-bottom: 1px  solid #e5e5e5;
+		width: 100%;
+    	position: fixed;
+    	top: 0;
+    	background: #fff;
 }
 
 .top-sub-nav{
@@ -94,9 +98,9 @@ margin: 4rem auto;
 	font-size: 1.2rem;
 }
 
-.author{
+.author,.darkMediumText{
 	font-weight: bold;
-	font-size: .87rem;
+	font-size: 1.1rem;
 }
 
 .pub-date{
@@ -282,4 +286,35 @@ footer{
 	margin-bottom: 1rem;
 	padding-bottom: 1rem;
 	border-bottom:1px solid #e5e5e5;
+}
+
+.my-3{
+	margin-top:2rem;
+}
+
+.my-4{
+	margin:2rem auto;
+}
+
+.inflation-theory-sec{
+	position: relative;
+	top:100px;
+}
+
+.floating-bloc{
+	max-width: 230px;
+	position:absolute;
+	right:-300px;
+	top:200px;
+}
+
+.floating-bloc span{
+ display: inline-block;
+ margin-bottom: 1rem;
+}
+
+@media(max-width: 700px){
+	.floating-bloc{
+		display: none;
+	}
 }
