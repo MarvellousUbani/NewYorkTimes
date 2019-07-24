@@ -8,7 +8,7 @@ A clone of an article page on newyorktimes
 [Michaels](https://github.com/MarvellousUbani)
 
 ## Live Version
-[Click Here](https://marvellousubani.github.io/NewYorkTimes/.Upd)
+[Click Here](https://marvellousubani.github.io/NewYorkTimes)
 
 ## Assignment Link
 [Click Here](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
