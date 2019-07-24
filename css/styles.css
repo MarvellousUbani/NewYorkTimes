@@ -1,0 +1,321 @@
+.body {
+  background:white;
+
+}
+
+img{
+	width:100%;
+  height:auto;
+}
+
+figure{
+	margin:0;
+}
+
+.d-inline{
+	display: inline;
+}
+
+.top-nav{
+		border-bottom: 1px  solid #e5e5e5;
+		width: 100%;
+    	position: fixed;
+    	top: 0;
+    	background: #fff;
+      z-index: 10;
+}
+
+.top-sub-nav{
+	max-width: 1500px;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	max-width: 200px;
+	position: relative;
+}
+
+.btn-blue{
+	background:steelblue;
+	color:#fff;
+	border:none;
+	padding:.5rem 1.2rem;
+	border-radius: 5px;
+}
+
+.trans-btn{
+	background: transparent;
+	border:none;
+	cursor: pointer;
+}
+
+.btn-login{
+	font-size: .8rem;
+}
+
+.small-grey-txt{
+	font-size: .87rem;
+	color:#666;
+}
+
+.small-black-txt{
+	font-size: .7rem;
+	color:#464646;
+}
+
+.mx-800{
+	max-width: 800px;
+}
+
+.mx-900{
+	max-width: 900px;
+}
+
+.m-auto{
+	margin:auto !important;
+}
+
+
+.top-title{
+  font-weight:bold;
+  max-width: 800px;
+  margin-bottom: 1rem;
+  padding-left: 12rem;
+  font-size: 3rem;
+}
+
+.middle-section{
+max-width: 1200px;
+margin: 4rem auto;
+}
+
+
+.story-bloc{
+	max-width: 600px;
+	margin:auto;
+	font-size: 1.2rem;
+}
+
+.author,.darkMediumText{
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.pub-date{
+  font-size:.9rem;
+}
+
+.sm-links{
+	font-size: .85rem;
+	color: #000;
+	padding:.5rem .7rem;
+	background:#eee;
+	border-radius: 50%;
+}
+
+.p-relative{
+position: relative;
+}
+
+.top-minus-400{
+	top:-400px;
+}
+
+.top-minus-250{
+	top:-250px;
+}
+
+
+.date-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.inflation-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.inflation-row .col{
+	padding:0 1rem;
+}
+
+
+.bottom-share-links{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.blog-posts-section{
+	width:100%;
+	margin:1.5rem auto;
+}
+
+.blog-posts-section .cat-title{
+	font-weight: bold;
+	font-size: .87rem;
+}
+
+.blog-posts-section .row{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.blog-posts-section .space-cat{
+	width:70%;
+	margin-right: 1rem;
+	border-top:1px solid #000;
+}
+
+.editor-picks{
+	border-top:1px solid #000;
+	margin-top:1rem;
+}
+
+.blog-posts-section .popular-cat{
+	flex:1;
+	border-top:1px solid #000;
+}
+
+.blog-posts-section .space-cat .sub-row{
+	display: flex;
+	justify-content: space-between;
+	margin-top:1rem;
+}
+
+.blog-posts-section .space-cat .sub-row .col{
+	flex: 1;
+	padding-right: 1rem;
+}
+
+.at-pub-title{
+font-size:1.1rem;
+font-weight: 500;
+display: inline-block;
+margin-top: 1rem;
+}
+
+.at-pub-date{
+ font-size:.75rem;
+ color:#666;
+}
+
+.invs-link{
+	text-decoration: none;
+	color:#000;
+}
+
+.posts-link{
+	text-decoration: none;
+	color:#000;
+}
+
+.popular-post-link{
+	text-decoration: none;
+	color:#000;
+	display: inline-block;
+	border-top:1px solid #e5e5e5;
+	padding:1rem 0;
+	font-weight: 500;
+}
+
+footer{
+	max-width: 1200px;
+	margin:auto;
+}
+
+.footer-logo-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.divider{
+	height: 2px;
+	background: #f9f9f9;
+	border:1px solid #e5e5e5;
+	border-radius: 3px;
+	margin-bottom: 1rem;
+}
+
+.footer-nav-row a{
+	text-decoration: none;
+	color:#000;
+}
+
+.footer-nav-row li{
+	list-style: none;
+	font-size: .87em;
+	line-height: 1.8em;
+}
+
+.footer-nav-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.subscribe-col{
+	border-left: 1px solid #e5e5e5;
+	padding-left: 1rem;
+}
+
+.copyright{
+	display: flex;
+	border-top: 1px solid #e5e5e5;
+	margin-top:2rem;
+	padding-top: 1rem;
+	justify-content: space-between;
+	 font-size:.75rem;
+     color:#666;
+}
+
+.bigger-first{
+	font-size: 1.1rem;
+}
+
+.smaller-first{
+	font-size: .85rem;
+}
+
+.border-bottom{
+	display: inline-block;
+	margin-top: 1.3rem;
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	border-bottom:1px solid #e5e5e5;
+}
+
+.my-3{
+	margin-top:2rem;
+}
+
+.my-4{
+	margin:2rem auto;
+}
+
+.inflation-theory-sec{
+	position: relative;
+	top:100px;
+}
+
+.floating-bloc{
+	max-width: 230px;
+	position:absolute;
+	right:-300px;
+	top:200px;
+}
+
+.floating-bloc span{
+ display: inline-block;
+ margin-bottom: 1rem;
+}
+
+@media(max-width: 700px){
+	.floating-bloc{
+		display: none;
+	}
+}
