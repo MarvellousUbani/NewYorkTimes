@@ -4,7 +4,7 @@
 A clone of an article page on newyorktimes
 
 ### Authors
-[Asha](https://github.com/Ashah15/)
+[Asha](https://github.com/Ashah15/) &
 [Michaels](https://github.com/MarvellousUbani)
 
 ## Live Version
